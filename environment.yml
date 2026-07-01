@@ -1,0 +1,13 @@
+name: ice-free
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - jupyterlab
+  - matplotlib
+  - numpy
+  - pandas
+  - scipy
+  - xarray
+  - netcdf4
+  - h5netcdf
