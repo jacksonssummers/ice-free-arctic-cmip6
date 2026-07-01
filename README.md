@@ -32,9 +32,9 @@ Interpretation: higher-emissions scenarios show somewhat earlier upper-end timin
 
 ## Selected Figures
 
-![First practical ice-free event duration by SSP scenario](figures/first_ice_free_duration_by_ssp.png)
+![Duration of first practical ice-free period by SSP scenario](figures/first_ice_free_duration_by_ssp.png)
 
-![First practical ice-free year range by SSP scenario](figures/first_ice_free_year_range_by_ssp.png)
+![First ice-free timing versus duration](figures/first_ice_free_timing_vs_duration.png)
 
 ## Repository Structure
 
