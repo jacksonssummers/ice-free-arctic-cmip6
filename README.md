@@ -30,6 +30,12 @@ Exploratory statistical tests do not show a significant difference in first-even
 
 Interpretation: higher-emissions scenarios show somewhat earlier upper-end timing and longer tails in some visualizations, but ensemble variability is large relative to scenario-to-scenario differences in the duration of the first practical ice-free event.
 
+## Selected Figures
+
+![First practical ice-free event duration by SSP scenario](figures/first_ice_free_duration_by_ssp.png)
+
+![First practical ice-free year range by SSP scenario](figures/first_ice_free_year_range_by_ssp.png)
+
 ## Repository Structure
 
 ```text
