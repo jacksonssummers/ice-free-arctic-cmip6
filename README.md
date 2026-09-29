@@ -6,7 +6,7 @@ A practical ice-free event is defined as Arctic sea ice area below 1 million km2
 
 ## Project Highlights
 
-- Loads public CMIP6 and NSIDC CDR daily Arctic sea ice NetCDF files with `xarray`.
+- Loads public CMIP6 daily Arctic sea ice NetCDF files with `xarray`.
 - Standardizes mixed NetCDF time encodings from the public archive for exploratory analysis.
 - Identifies the first practical ice-free day, year, and event duration for each ensemble member.
 - Compares event duration distributions across SSP126, SSP245, SSP370, and SSP585.
@@ -44,7 +44,6 @@ ice-free-arctic-cmip6/
 |-- data/
 |   |-- CMIP6_historical_data/
 |   |-- CMIP6_ssp_data/
-|   `-- NSIDC_CDR_daily_v4_SIA_SIE_197901_202312_no_leap.nc
 |-- README.md
 |-- requirements.txt
 |-- environment.yml
@@ -55,15 +54,12 @@ ice-free-arctic-cmip6/
 
 The notebook expects the public Arctic Data Center data under `data/`. Raw NetCDF files are ignored by Git and should be downloaded separately.
 
-Primary citation:
-
-> Alexandra Jahn and Celine Heuze. 2024. Daily CMIP6 and NSIDC CDR (National Snow and Ice Data Center Climate Data Record) Arctic sea ice area and sea ice extent, 1980-2100. Arctic Data Center. https://doi.org/10.18739/A2CC0TV9V
+Data source: [Jahn and Heuze (2024), Arctic Data Center](https://doi.org/10.18739/A2CC0TV9V).
 
 Expected local data layout after downloading the data:
 
 - `data/CMIP6_historical_data/`: 146 NetCDF files, about 73 MB
 - `data/CMIP6_ssp_data/`: 404 NetCDF files, about 290 MB
-- `data/NSIDC_CDR_daily_v4_SIA_SIE_197901_202312_no_leap.nc`: NSIDC observational reference file
 
 ## Getting Started
 
